@@ -30,7 +30,7 @@ const excelData = excelToJson('Datos.xlsx');
 //Ruta para la raiz del Servidor
 app.get('/', (req, res) => {
     res.send(`
-        <h1>Bienvenido a la API REST LBO</h1>
+        <h1>Bienvenido a la API REST </h1>
         <p>Rutas disponibles:</p>
         <ul>
             <li><a href="/api/data">/api/data</a> - Obtener todos los datos</li>
